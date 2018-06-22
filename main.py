@@ -108,10 +108,10 @@ def main(network):
 if __name__ == '__main__':
 
     # INITIALISATION DE LA CONNEXION
-    API_KEY = "e0145398f165fd77e969fb291a61234b"
-    API_SECRET = "b7d98fbd07ede5ed290cd2285eb14007"
-    username = "Arc_Aick"
-    password_hash = pylast.md5("S1mpl3pl4n3\"")
+    API_KEY = "your_api_key"
+    API_SECRET = "your_api_secret"
+    username = "your_username"
+    password_hash = pylast.md5("your_password")
 
     network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET, username=username, password_hash=password_hash)
 
